@@ -1,0 +1,9 @@
+{
+    "tls": {
+        "key": "/path/to/key.pem",
+        "cert": "/path/to/cert.pem",
+        "ca": "/path/to/ca.pem"
+    },
+    "port": 8080,
+    "host": "0.0.0.0"
+}

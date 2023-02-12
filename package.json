@@ -1,0 +1,15 @@
+{
+    "name": "http-proxy",
+    "version": "0.0.1",
+    "description": "Simple nodejs https? proxy",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "npx esbuild --bundle src/*.ts --outdir=dist --platform=node"
+    },
+    "keywords": [],
+    "author": "eShreder <eshreder@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^18.13.0"
+    }
+}
